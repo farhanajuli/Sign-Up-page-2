@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    
+    background: rgba(0,0,0,0.5) url(BG.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center center;
+    /* background-blend-mode: darken; */
+    background-size: cover;
+    
+}
+
+.container{ 
+    position: absolute;
+    border: 3px solid white;
+    color: white;
+    top: 25%;
+    left: 39%;
+    padding: 65px;
+    
+    background-color: rgba(0,0,0,0.777);
+    background-blend-mode: darken;
+}
+
+.container .input{
+    margin: 5px auto;
+    padding: 10px 0px;
+}
